@@ -16,19 +16,6 @@ public class TikaExtraction {
 		Tika tika = new Tika();
 		String filecontent = tika.parseToString(file);
 		System.out.println("Extracted Content: " + filecontent);
-		/*
-		 * // Unirest.setProxy(new HttpHost("127.0.0.1", 8000));
-		 * Unirest.setProxy(new HttpHost("proxy.iiit.ac.in",8080)); // Unirest.
-		 * HttpResponse<JsonNode> response = Unirest.post(
-		 * "https://textanalysis-text-summarization.p.mashape.com/text-summarizer"
-		 * ) .header("X-Mashape-Key",
-		 * "oBueQBMTQwmshVH8ZXZWybUr0BIhp1jpTVzjsnEj5QXY52Qvd7")
-		 * .header("Content-Type", "application/json") .header("Accept",
-		 * "application/json") .body(
-		 * "{'url':'http://en.wikipedia.org/wiki/Automatic_summarization','text':'','sentnum':8}"
-		 * ) .asJson();
-		 */
-
 	}
 
 }
