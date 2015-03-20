@@ -15,7 +15,6 @@ public class TikaExtraction {
 				"C:/Users/SAMEER/Desktop/Game-Skill-Improvements-using-Raspberry-PI.docx");
 		Tika tika = new Tika();
 		String filecontent = tika.parseToString(file);
-		//System.out.println("Extracted Content: " + filecontent);
 		System.out.println("Extracted Content: " + filecontent);
 		/*
 		 * // Unirest.setProxy(new HttpHost("127.0.0.1", 8000));
