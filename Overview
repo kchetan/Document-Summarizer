@@ -1,0 +1,31 @@
+----------------------------APACHE TIKA ------------------------------
+
+Input a file or a url is given and the text is stored in text.txt
+
+----------------------------SUMMARIZER -------------------------------
+
+The text.txt is summarized and stored in summary.txt
+
+---------------------------- CRAWLER ---------------------------------
+
+
+To get the computer science domain text . Run the CSDomain.java file with data.txt file as arguement.
+Then run the remove_utf8.py on CSDomain.txt
+
+The codes are present in the crawl_codes.
+
+
+------------------------WORD2VEC MODEL -------------------------------
+
+
+The CSDomain.txt file is given as an arguement to the Word2VecModelCreation.py and the name model.bin is the second arguement into which the
+model of the csdomain is saved.
+ 
+
+----------------------WORD2VEC SIMILARITY------------------------------
+
+The summarysimilarity.py is used for finiding the similarity of the summary with csdomain .
+
+python summarysimilarirty.py model.bin < summary.txt >
+
+-----------------------------------------------------------------------

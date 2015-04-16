@@ -1,0 +1,18 @@
+
+------------------------ RUN THE PROJECT------------------------------
+
+COMMAND -- java -jar DocumentSummarizer.jar <file path/URL> <python Summarizer> 
+			OR 
+	./run <file path/URL> <python Summarizer>
+
+----------------------------------------------------------------------
+
+Python modules tht u need in the summarizer must be installed.
+
+Modules required for the summarizers we used are:-
+
+1) networkx
+2) numpy
+3) nltk
+4) sklearn
+5) sumy
