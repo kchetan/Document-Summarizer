@@ -1,0 +1,14 @@
+1.System can take any file that contains a valid  text content
+2.Extract the Text Content
+  tools available-http://tika.apache.org/
+3.Summarize the extracted text using the summarizer configured by the user
+  Eg:-http://knowitall.cs.washington.edu/gflow/
+      http://autosummarizer.com/
+4.Quantify and report the match of the created summary with computer science domain(previously created word2vec model* for the domain can be used for this)
+----------------------------------------------------------------------------------------------------------------------
+*Creating Word2Vec Model for the domain-:
+1.Crawl Open Url Directory For Computer Science and Collect as much as text content related to computer science
+  (http://www.dmoz.org/Computers/Computer_Science/)
+2.Create  WORD2VEC model for the text content extracted
+  http://radimrehurek.com/gensim/index.html	
+
